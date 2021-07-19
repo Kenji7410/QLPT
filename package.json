@@ -1,0 +1,80 @@
+{
+  "name": "room-management-system",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://slexisvn.github.io/room-management-system",
+  "dependencies": {
+    "@ant-design/charts": "^1.1.20",
+    "@ant-design/pro-card": "^1.14.3",
+    "@ant-design/pro-layout": "^6.20.0",
+    "ag-grid-community": "^25.3.0",
+    "ag-grid-enterprise": "^25.3.0",
+    "ag-grid-react": "^25.3.0",
+    "antd": "^4.16.6",
+    "bcryptjs": "^2.4.3",
+    "dexie": "^3.0.3",
+    "fast-deep-equal": "^3.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-to-print": "^2.12.6",
+    "reactour": "^1.18.4",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "PORT=17031 craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "pretty-quick": "pretty-quick",
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@craco/craco": "^6.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jest": "^26.0.15",
+    "@types/jsonwebtoken": "^8.5.2",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router": "^5.1.15",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/reactour": "^1.18.1",
+    "@types/uuid": "^8.3.0",
+    "craco-antd": "^1.19.0",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1"
+  }
+}

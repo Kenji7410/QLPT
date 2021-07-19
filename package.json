@@ -1,8 +1,8 @@
 {
-  "name": "room-management-system",
+  "name": "QLPT",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://slexisvn.github.io/room-management-system",
+  "homepage": "https://kenji7410.github.io/QLPT",
   "dependencies": {
     "@ant-design/charts": "^1.1.20",
     "@ant-design/pro-card": "^1.14.3",
